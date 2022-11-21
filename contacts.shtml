@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Kontakty</title>
+  </head>
+  <body>
+  <!--#include virtual="include/header.txt"-->
+
+   <section class="menu2">
+    <div class="topnav_aktuality">
+      <a class="active" href="#home"><b>Vsichni kontakty</b></a>
+      <a href="news.shtml"><b>Ministerstvo</b></a>
+      <a href="#contact"><b>Vzdelavani</b></a>
+      <a href="#about"><b>Sport</b></a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <p><br> SECTION for kontakty</p>
+  </section>
+
+  <!--#include virtual="include/footer.txt"-->
+  </body>
+</html>

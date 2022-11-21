@@ -1,0 +1,27 @@
+<header>
+    <div id="h_info">
+      <table id="h_info_table">
+          <tr>
+            <td class="network"><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></td>
+            <td class="network"><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></td>
+            <td class="icon"><img src="img/phone-call.png" alt="Telephone" width="30" height="30"></td>
+            <td class="text">+420 234 811 111</td>
+            <td class="icon"><img src="img/location.png" alt="Location" width="30" height="30"></td>
+            <td class="text">Karmelitská 529/5 118 12 Praha 1</td>
+            <td class="icon"><img src="img/email.png" alt="Email" width="30" height="30"></td>
+            <td><a class="general_link" href="mailto: posta@msmt.cz">posta@msmt.cz</a></td>
+            <td class="icon"><img src="img/czech-republic.png" alt="Email" width="35" height="35"></td>
+          </tr>
+      </table>
+    </div>
+    <div id="h_menu_bar">
+      <a href="index.shtml" class="logo"><img src="/img/logo_msmt.png" alt="Logo" width="90%" height="90%"></a>
+      <nav id="menu_items">
+        <ul>
+          <li><a href="index.shtml">Ministerstvo</a></li>
+          <li><a href="education.shtml">Vzdělávání</a></li>
+          <li><a href="sport.shtml">Sport</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>

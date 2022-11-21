@@ -1,0 +1,40 @@
+<footer>
+    <div class="f_container">
+
+      <div class="f_content">
+        <h6>O ministerstvu</h6>
+        <p> Ministerstvo školství, mládeže a tělovýchovy České republiky je ústřední orgán státní správy pro předškolní zařízení, školská zařízení, základní školy, střední školy a vysoké školy, pro vědní politiku, výzkum a vývoj, včetně mezinárodní spolupráce v této oblasti, a pro vědecké hodnosti, pro státní péče o děti, mládež, tělesnou výchovu, sport, turistiku a sportovní reprezentaci státu.</p>
+      </div>
+
+      <div class="f_content">
+        <h6>Kontakt pro veřejnost</h6>
+        <p><a class="general_link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732">Karmelitská 529/5 118 12 Praha 1</a></p>
+        <p>+420 234 811 111</p>
+        <p>Podatelna pro veřejnost:</p>
+        <ul>
+          <li>pondělí a středa - 7:30-17:00</li>
+          <li>úterý a čtvrtek - 7:30-15:30</li>
+          <li>pátek - 7:30-14:00</li>
+        </ul>
+      </div>
+
+      <div class="f_content">
+        <h6>Úřední sdělení</h6>
+        <ul class="f_links">
+          <li><a class="general_link" href="news.shtml">Aktuality</a></li>
+          <li><a class="general_link" href="contacts.shtml">Kontakty</a></li>
+          <li><a class="general_link" href="employeers.shtml">Seznam zaměstnanců</a></li>
+          <li><a class="general_link" href="documents.shtml">Dokumenty</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="f_container">
+      <p style="float: left">© 2013 – 2022  MŠMT Nastavení soubrů cookies
+      </p>
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></li>
+        <li><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></li>
+      </ul>
+    </div>
+  </footer>

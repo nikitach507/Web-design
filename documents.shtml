@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Dokumenty</title>
+  </head>
+  <body>
+  <!--#include virtual="include/header.txt"-->
+
+   <section class="menu2">
+    <div class="topnav_categoty">
+      <a class="active" href="#home"><b>Dokumenty</b></a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <p><br> SECTION for dokuments</p>
+  </section>
+
+  <!--#include virtual="include/footer.txt"-->
+  </body>
+</html>

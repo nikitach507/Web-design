@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Ministerstvo školství, mládeže a tělovýchovy</title>
+  </head>
+  <body>
+  <!--#include virtual="include/header.txt"-->
+
+  <section>
+    <p><br> SECTION</p>
+  </section>
+
+  <aside>
+    <p><br> ASIDE</p>
+  </aside>
+
+  <!--#include virtual="include/footer.txt"-->
+  </body>
+</html>
