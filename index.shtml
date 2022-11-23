@@ -35,32 +35,69 @@
         </ul>
       </nav>
     </div>
-
   </header>
 
+
   <section class="s_additional">
-    <img src="img/news1.jpeg" alt="Facebook">
-    <div>
-      <h1>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h1>
-      <p>Praha, 21. listopadu 2022 - Ministr školství mládeže a tělovýchovy Vladimír Balaš dnes zahájil mezinárodní konferenci CZEDUCON, kterou pořádá Dům...</p>
-    </div>
-    <button type="button"><b>Dale</b></button>
+      <img src="img/news1.jpeg" alt="Facebook">
+      <div class="bg_text"></div>
+      <div class="bottom-left">
+          <p><b>Ministerstvo</b> / 22.11.2022</p>
+          <b>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</b>
+      </div>
+
   </section>
+    <div class="design_1">
+        <hr style="float: left">
+        <h1>Ministerstvo</h1>
+        <hr style="float:right;">
+    </div>
+
+
   <section class="menu2">
     <div class="topnav">
-      <a class="active" href="#home"><b>Ministerstvo</b></a>
-      <a href="#about"><b>Základní informace</b></a>
+      <a class="active" href="#home" style="width:15%"><b>Ministerstvo</b></a>
+      <a href="#about" style="width: 24%"><b>Základní informace</b></a>
       <a href="news.shtml"><b>Aktuality</b></a>
       <a href="#contact"><b>Akce</b></a>
       <a href="#about"><b>Kontakty</b></a>
       <div class="search-container">
-        <form action="/action_page.php">
+        <form action="/action_page.php" class="form_test">
           <input type="text" placeholder="Search.." name="search">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
   </section>
+
+    <section class="section_info">
+        <div class="design_3">
+            <h1>HLAVNÍ ZPRÁVY</h1><hr>
+        </div>
+        <div class="small_news">
+            <div class="img_small_news">
+                <img src="img/news1.jpeg" alt="Facebook">
+            </div>
+            <p>ministrestvo / 23.11.2022</p>
+            <h2>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h2>
+        </div>
+        <div class="small_news">
+            <div class="img_small_news">
+                <img src="img/news1.jpeg" alt="Facebook">
+            </div>
+            <p>ministrestvo / 23.11.2022</p>
+            <h2>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h2>
+        </div>
+        <div class="small_news">
+            <div class="img_small_news">
+                <img src="img/news1.jpeg" alt="Facebook">
+            </div>
+            <p>ministrestvo / 23.11.2022</p>
+            <h2>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h2>
+        </div>
+        <a href="" class="double-border-button">Všechny zprávy</a>
+    </section>
+
   <section class="last">
     <table class="s_table">
         <tr style="text-transform:uppercase; height: 3rem; background-color: #173f41; color: white">
