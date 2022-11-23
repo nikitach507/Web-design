@@ -14,23 +14,25 @@ footer {
   text-align: center;
 }
 
-section.menu2 {
-  margin: 0 0rem 2rem 9.3rem;
-  width: 82%;
+section.s_additional,
+section.menu2,
+section.last{
+  float: left;
+  width:100%;
+  margin-bottom: 1rem;
   border-radius: 0.5rem;
 }
 
-section {
-  margin: 0 0.5rem 1.65rem 9.3rem;
-  float: left;
-  width: 82%;
-}
+/*section {*/
+/*  margin: 0 0.5rem 1.65rem 9.3rem;*/
+/*  float: left;*/
+/*  width: 82%;*/
+/*}*/
 
 footer {
   color: #ececec;
   background-color: #173f41;
   clear: both;
-  margin: 0 -0.5rem;
   padding:2.5rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
@@ -49,8 +51,9 @@ a.general_link:active{
 /*header info settings*/
 
 header{
-  margin: -0.5rem;
-  padding: 0.6rem;
+  margin: -0.5rem -0.5rem 2rem -0.5rem;
+  padding: 1.5rem;
+  height: 10%;
 }
 
 #h_info {
@@ -70,31 +73,37 @@ header{
 /*header menu bar settings*/
 
 #h_menu_bar {
-  padding: 1.8rem;
+  padding: 2rem;
 }
 .logo {
   float: left;
-  margin-top: -1.8rem;
+  margin-top: -1rem;
+  margin-left: -3rem;
+}
+.logo img{
+  width: 80%;
+  height: 80%;
 }
 #menu_items {
   float: right;
-  margin: -1.8rem auto 1.8rem;
+  margin-right: -3rem;
 }
 #menu_items ul {
-  padding: 1em 0;
   margin: 0 auto;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   list-style: none;
 }
 #menu_items ul li {
   display: inline-block;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  text-align: right;
 }
 #menu_items ul li a {
   color: white;
   text-decoration: none;
   font-family: 'Lora', serif;
-  padding: 1em;
 }
 #menu_items ul li a:hover {
   background: rgba(33, 71, 73, 0.49);
@@ -107,30 +116,74 @@ section settings
 */
 
 .s_additional{
-  width: 82%;
-  background-color: #173f41;
-  float: left;
+  border-radius: 1rem;
 }
 .s_additional img{
-  width: 35rem;
-  height: 25rem;
+  width: 30%;
+  height: 30%;
   border-radius: 2rem;
   float: left;
   padding: 1rem;
 }
 .s_additional div{
-  margin: 9rem 11rem;
-  width: 85%;
+  margin: 3rem auto;
+}
+.s_additional div h1{
+  font-size: 1.4rem;
+}
+.s_additional div p{
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 .s_additional button{
   width: 9rem;
   height: 2rem;
-  margin-left: 35rem;
-  margin-top: -1rem;
+  float: right;
+  margin: -3rem 1rem 0 0;
   font-size: 1.2rem;
   color: #173f41;
 }
+.last table.s_table{
+  float: left;
+  width: 100%;
+}
 
+.last table.s_table tr td{
+  font-size: 1.2rem;
+    width: 50%;
+  border: 0.1rem solid rgba(230, 244, 245, 0.42);
+}
+.last table.s_table tr td img{
+  float: left;
+  width: 20%;
+  height: 20%;
+  border-radius: 1rem;
+}
+.last table.s_table tr td h1{
+  float: left;
+  width: 80%;
+  font-size: 1rem;
+}
+.last table.s_table tr td button{
+  float: left;
+  font-size: 1rem;
+}
+
+
+.last div.last_zi{
+  float: left;
+  text-align: left;
+  padding: 2rem;
+}
+.last div.last_zi h1{
+  font-size: 1rem;
+}
+.last div.last_zi h3{
+  font-size: 0.7rem;
+}
+.last div.last_zi p{
+  font-size: 0.5rem;
+}
 /*aside settinds*/
 
 .topnav,
@@ -149,7 +202,7 @@ section settings
   color: #173f41;
   text-align: center;
   padding: 1rem;
-  width: 14%;
+  width: 15.25%;
   text-decoration: none;
   font-size: 1rem;
 }

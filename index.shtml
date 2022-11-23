@@ -3,19 +3,46 @@
   <head>
     <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="test.js"></script>
     <meta charset="UTF-8">
     <title>Ministerstvo školství, mládeže a tělovýchovy</title>
   </head>
   <body>
-  <!--#include virtual="include/header.txt"-->
 
+  <header>
+    <div id="h_info">
+      <table id="h_info_table">
+          <tr>
+            <td class="network"><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></td>
+            <td class="network"><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></td>
+            <td class="icon"><img src="img/phone-call.png" alt="Telephone" width="30" height="30"></td>
+            <td class="text">+420 234 811 111</td>
+            <td class="icon"><img src="img/location.png" alt="Location" width="30" height="30"></td>
+            <td class="text">Karmelitská 529/5 118 12 Praha 1</td>
+            <td class="icon"><img src="img/email.png" alt="Email" width="30" height="30"></td>
+            <td><a class="general_link" href="mailto: posta@msmt.cz">posta@msmt.cz</a></td>
+            <td class="icon"><img src="img/czech-republic.png" alt="Email" width="35" height="35"></td>
+          </tr>
+      </table>
+    </div>
+    <div id="h_menu_bar">
+      <a href="index.shtml" class="logo"><img src="/img/logo_msmt.png" alt="Logo"></a>
+      <nav id="menu_items">
+        <ul>
+          <li><a href="index.shtml"><b>Ministerstvo</b></a></li>
+          <li><a href="education.shtml"><b>Vzdělávání</b></a></li>
+          <li><a href="sport.shtml"><b>Sport</b></a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
 
   <section class="s_additional">
     <img src="img/news1.jpeg" alt="Facebook">
     <div>
       <h1>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h1>
       <p>Praha, 21. listopadu 2022 - Ministr školství mládeže a tělovýchovy Vladimír Balaš dnes zahájil mezinárodní konferenci CZEDUCON, kterou pořádá Dům...</p>
-
     </div>
     <button type="button"><b>Dale</b></button>
   </section>
@@ -34,12 +61,135 @@
       </div>
     </div>
   </section>
-  <section>
-    <p><br> SECTION</p>
+  <section class="last">
+    <table class="s_table">
+        <tr style="text-transform:uppercase; height: 3rem; background-color: #173f41; color: white">
+            <td>Aktivity</td>
+            <td>Akce</td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="img/news1.jpeg" alt="Facebook">
+                <h1>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h1>
+            </td>
+            <td>
+              <p>15. 06. 2020</p>
+              <p>On-line konference "Strategie 2030+"</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <p>06. 03. 2014</p>
+              <p>Den učitelů v Národním pedagogickém muzeu</p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="img/news1.jpeg" alt="Facebook">
+                <h1>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h1>
+            </td>
+            <td>
+              <p>15. 06. 2020</p>
+              <p>On-line konference "Strategie 2030+"</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <p>06. 03. 2014</p>
+              <p>Den učitelů v Národním pedagogickém muzeu</p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="img/news1.jpeg" alt="Facebook">
+                <h1>MINISTR BALAŠ ZAHÁJIL KONFERENCI CZEDUCON</h1>
+            </td>
+            <td>
+              <p>15. 06. 2020</p>
+              <p>On-line konference "Strategie 2030+"</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <p>06. 03. 2014</p>
+              <p>Den učitelů v Národním pedagogickém muzeu</p>
+            </td>
+        </tr>
+    </table>
+  <div class="last_zi">
+      <h1>Zakladni informace</h1>
+      <hr>
+      <h3>Ministr školství, mládeže a tělovýchovy</h3>
+      <p>Prof. JUDr. Vladimír Balaš, CSc.   <br>
+
+ministr školství, mládeže a tělovýchovy (od 1. července 2022)<br>
+
+* 20. dubna 1959 v Prostějově<br>
+
+
+Vystudoval Právnickou fakultu Univerzity Karlovy. Během studií a praxe absolvoval řadu mezinárodních vzdělávacích kurzů a byl držitelem prestižních stipendií zahraničních univerzit. Během své odborné praxe zastával řídící funkce v rámci mnoha významných vědeckých institucí. Byl ředitelem Ústavu státu a práva ČSAV a AV ČR, člen Vědecké rady Ministerstva zahraničních věcí nebo předseda České společnosti pro mezinárodní právo. Působil rovněž jako člen Stálého arbitrážního soudu v Haagu a dále byl zástupcem České republiky v rámci organizací OSN. Věnuje se pedagogické činnosti na českých i zahraničních vysokých školách. Je spoluautorem několika významných publikací týkajících se mezinárodního práva. V letech 1994-1998 byl zastupitelem města Plzeň. V roce 2021 byl zvolen poslancem Parlamentu ČR.</p>
+      <hr>
+      <h3>Kontakty</h3>
+      <p>Ministerstvo školství, mládeže a tělovýchovy<br>
+Karmelitská 529/5<br>
+118 12 Praha 1<br>
+
+Telefonní ústředna: +420 234 811 111<br>
+
+</p>
+      <hr>
+      <h3>Povinně zveřejněné informace</h3>
+      <p>Zveřejněné informace dle § 5 odst. 3 zák. 106/1999 Sb., o svobodném přístupu k informacím, ve znění pozdějších předpisů<br>
+
+Přehled povinně zveřejňovaných informací dle zákona č. 106/1999 Sb. a Standardu ISVS pro zveřejňování vybraných informací o veřejné správě, dále dle vyhlášky 442/2006 Sb., kterou se stanoví struktura informací zveřejňovaných o povinném subjektu způsobem umožňujícím dálkový přístup  </p>
+      <hr>
+      <h3>Základní informace o zpracování osobních údajů</h3>
+      <p>Základní informace o zpracování osobních údajů Ministerstvem školství, mládeže a tělovýchovy Informace je uveřejňována pro plnění povinnosti stanovené v článcích 12 až 14 Obecného nařízení o ochraně osobních údajů č. 2016/679 (dále jen „nařízení“). Tato informace může být doplňována a upřesňována bližšími informacemi zveřejněnými nebo poskytnutými ke specifickým zpracováním.</p>
+      <hr>
+      <h3>Budova ministerstva</h3>
+      <p>Na místě současného paláce stály původně tři domy, které stavebně propojil kolem roku 1571 architekt, stavitel a kameník Bonifác Wohlmut. V jednom z nich se v letech 1700 - 1713 nacházel divadelní sál, kde se provozovala německá operní představení. V 90. letech 18. století se tyto domy staly majetkem Černínů z Chudenic. Ti je nechali v roce 1796 přestavět a sjednotit. Autorem této přestavby byl architekt Josef Zobel. Již jako jeden palác jej zdědila v roce 1800 kněžna Marie Pavlína z Hohenzollern – Hechingen</p>
+      <hr>
+  </div>
   </section>
+    <footer>
+    <div class="f_container">
 
+      <div class="f_content">
+        <h6>O ministerstvu</h6>
+        <p> Ministerstvo školství, mládeže a tělovýchovy České republiky je ústřední orgán státní správy pro předškolní zařízení, školská zařízení, základní školy, střední školy a vysoké školy, pro vědní politiku, výzkum a vývoj, včetně mezinárodní spolupráce v této oblasti, a pro vědecké hodnosti, pro státní péče o děti, mládež, tělesnou výchovu, sport, turistiku a sportovní reprezentaci státu.</p>
+      </div>
 
+      <div class="f_content">
+        <h6>Kontakt pro veřejnost</h6>
+        <p><a class="general_link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732">Karmelitská 529/5 118 12 Praha 1</a></p>
+        <p>+420 234 811 111</p>
+        <p>Podatelna pro veřejnost:</p>
+        <ul>
+          <li>pondělí a středa - 7:30-17:00</li>
+          <li>úterý a čtvrtek - 7:30-15:30</li>
+          <li>pátek - 7:30-14:00</li>
+        </ul>
+      </div>
 
-  <!--#include virtual="include/footer.txt"-->
+      <div class="f_content">
+        <h6>Úřední sdělení</h6>
+        <ul class="f_links">
+          <li><a class="general_link" href="news.shtml">Aktuality</a></li>
+          <li><a class="general_link" href="contacts.shtml">Kontakty</a></li>
+          <li><a class="general_link" href="employeers.shtml">Seznam zaměstnanců</a></li>
+          <li><a class="general_link" href="documents.shtml">Dokumenty</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="f_container">
+      <p style="float: left">© 2013 – 2022  MŠMT Nastavení soubrů cookies
+      </p>
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></li>
+        <li><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></li>
+      </ul>
+    </div>
+  </footer>
   </body>
 </html>
