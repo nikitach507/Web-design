@@ -8,7 +8,7 @@
 
       <div class="f_content">
         <h6>Kontakt pro veřejnost</h6>
-        <p><a class="general_link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732">Karmelitská 529/5 118 12 Praha 1</a></p>
+        <p><a class="general-link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732">Karmelitská 529/5 118 12 Praha 1</a></p>
         <p>+420 234 811 111</p>
         <p>Podatelna pro veřejnost:</p>
         <ul>
@@ -21,10 +21,10 @@
       <div class="f_content">
         <h6>Úřední sdělení</h6>
         <ul class="f_links">
-          <li><a class="general_link" href="news.shtml">Aktuality</a></li>
-          <li><a class="general_link" href="contacts.shtml">Kontakty</a></li>
-          <li><a class="general_link" href="employeers.shtml">Seznam zaměstnanců</a></li>
-          <li><a class="general_link" href="documents.shtml">Dokumenty</a></li>
+          <li><a class="general-link" href="news.shtml">Aktuality</a></li>
+          <li><a class="general-link" href="contacts.shtml">Kontakty</a></li>
+          <li><a class="general-link" href="employeers.shtml">Seznam zaměstnanců</a></li>
+          <li><a class="general-link" href="documents.shtml">Dokumenty</a></li>
         </ul>
       </div>
     </div>

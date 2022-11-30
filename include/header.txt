@@ -9,7 +9,7 @@
             <td class="icon"><img src="img/location.png" alt="Location" width="30" height="30"></td>
             <td class="text">Karmelitská 529/5 118 12 Praha 1</td>
             <td class="icon"><img src="img/email.png" alt="Email" width="30" height="30"></td>
-            <td><a class="general_link" href="mailto: posta@msmt.cz">posta@msmt.cz</a></td>
+            <td><a class="general-link" href="mailto: posta@msmt.cz">posta@msmt.cz</a></td>
             <td class="icon"><img src="img/czech-republic.png" alt="Email" width="35" height="35"></td>
           </tr>
       </table>

@@ -3,144 +3,219 @@
   <head>
     <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="test.js"></script>
     <meta charset="UTF-8">
     <title>Ministerstvo školství, mládeže a tělovýchovy</title>
   </head>
+
   <body>
-
-  <header>
-    <div id="h_info">
-      <table id="h_info_table">
+    <header>
+      <div class="header-info">
+        <table class="header-info-table">
           <tr>
-            <td class="network"><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></td>
-            <td class="network"><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></td>
-            <td class="icon"><img src="img/phone-call.png" alt="Telephone" width="30" height="30"></td>
-            <td class="text">+420 234 811 111</td>
-            <td class="icon"><img src="img/location.png" alt="Location" width="30" height="30"></td>
-            <td class="text">Karmelitská 529/5 118 12 Praha 1</td>
-            <td class="icon"><img src="img/email.png" alt="Email" width="30" height="30"></td>
-            <td><a class="general_link" href="mailto: posta@msmt.cz">posta@msmt.cz</a></td>
-            <td class="icon"><img src="img/czech-republic.png" alt="Email" width="35" height="35"></td>
+            <td class="header-icon">
+              <a href="https://www.facebook.com/msmtcr">
+                <img src="img/facebook.png" alt="Facebook" >
+              </a>
+            </td>
+            <td class="header-icon">
+              <a href="https://twitter.com/msmtcr">
+                <img src="img/twitter.png" alt="Twitter" >
+              </a>
+            </td>
+            <td class="header-icon">
+              <img src="img/phone-call.png" alt="Telephone">
+            </td>
+            <td class="header-text">
+              +420 234 811 111
+            </td>
+            <td class="header-icon">
+              <img src="img/location.png" alt="Location">
+            </td>
+            <td class="text">
+              Karmelitská 529/5 118 12 Praha 1
+            </td>
+            <td class="header-icon">
+              <img src="img/email.png" alt="Email" >
+            </td>
+            <td>
+              <a class="general-link" href="mailto: posta@msmt.cz">posta@msmt.cz</a>
+            </td>
+            <td class="header-icon">
+              <img src="img/czech-republic.png" alt="Czech" >
+            </td>
           </tr>
-      </table>
-    </div>
-    <div id="h_menu_bar">
-      <a href="index.html" class="logo"><img src="/img/logo_msmt.png" alt="Logo"></a>
-      <nav id="menu_items">
-        <ul>
-          <li><a href="index.html"><b>Ministerstvo</b></a></li>
-          <li><a href="education.shtml"><b>Vzdělávání</b></a></li>
-          <li><a href="sport.shtml"><b>Sport</b></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <div class="design_1">
-        <hr style="float: left">
+        </table>
+      </div>
+
+      <div class="header-menu-bar">
+        <nav class="header-menu-items">
+          <a href="index.html" class="logo"><img src="/img/logo_msmt.png" alt="Logo"></a>
+          <ul>
+            <li>
+              <a href="index.html">
+                <b>Ministerstvo</b>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <b>Vzdělávání</b>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <b>Sport</b>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="name-design-1">
+        <hr class="hr-left-design-1">
         <h1>Ministerstvo</h1>
-        <hr style="float:right;">
-    </div>
+        <hr class="hr-right-design-1">
+      </div>
 
+      <section class="second-menu-bar">
+        <div class="additional-menu-items">
+          <a href="index.html" style="width:15%">
+            <b>Ministerstvo</b>
+          </a>
+          <a href="m_basic_info.html" style="width: 24%">
+            <b>Základní informace</b>
+          </a>
+          <a href="m_news.html">
+            <b>Zprávy</b>
+          </a>
+          <a class="active" href="#">
+            <b>Akce</b>
+          </a>
+          <a href="m_contact.html">
+            <b>Kontakty</b>
+          </a>
 
-  <section class="menu2">
-    <div class="topnav">
-      <a href="index.html" style="width:15%"><b>Ministerstvo</b></a>
-      <a href="m_basic_info.html" style="width: 24%"><b>Základní informace</b></a>
-      <a href="m_news.html"><b>Aktuality</b></a>
-      <a class="active" href="#"><b>Akce</b></a>
-      <a href="m_contact.html"><b>Kontakty</b></a>
-      <div class="search-container">
+          <div class="search-container">
             <form class="search-form">
-              <input type="text" placeholder="Искать здесь...">
+              <label>
+                <input type="text" placeholder="Napište, co hledáte">
+              </label>
               <button type="submit"></button>
             </form>
           </div>
-    </div>
-  </section>
-
-    <article class="section_latest_news">
-        <div class="design_3">
-            <h2>AKCE</h2><hr>
         </div>
-        <div class="grid_action_2">
-                <div class="action_1">
-                    <h2>On-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_2">
-                    <h2>On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"vOn-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_3">
-                    <h2>On-line konference "Strategie 2030+"On-line konference e"On-lin]egie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_4">
-                    <h2>On-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_5">
-                    <h2>On-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_6">
-                    <h2>On-line koe konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_7">
-                    <h2>On-line konference "Strategie e konferencie 2030+"On-line30+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
-                <div class="action_8">
-                    <h2>On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"</h2>
-                    <p>ministerstvo / 15. 06. 2020</p>
-                </div>
+      </section>
+
+      <article class="index-latest-news">
+          <div class="name-design-2">
+              <h2>AKCE</h2><hr>
+          </div>
+
+          <div class="grid-action-2">
+            <div class="action-element-1">
+              <h2>On-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
             </div>
-        <div class="pagination">
-          <a href="#">&laquo;</a>
-          <a href="#"  class="active">1</a>
-          <a href="#">&raquo;</a>
-        </div>
-    </article>
-</main>
+            <div class="action-element-2">
+              <h2>On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"vOn-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-3">
+              <h2>On-line konference "Strategie 2030+"On-line konference e"On-lin]egie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-4">
+              <h2>On-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-5">
+              <h2>On-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-6">
+              <h2>On-line koe konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-7">
+              <h2>On-line konference "Strategie e konferencie 2030+"On-line30+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+            <div class="action-element-8">
+              <h2>On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"On-line konference "Strategie 2030+"</h2>
+              <p>ministerstvo / 15. 06. 2020</p>
+            </div>
+          </div>
 
-
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#"  class="active">1</a>
+            <a href="#">&raquo;</a>
+          </div>
+      </article>
+    </main>
 
     <footer>
-    <div class="f_container">
-
-      <div class="f_content2">
-        <h2>Kontakt pro veřejnost</h2>
-        <p><a class="general_link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732"><b>Karmelitská 529/5 118 12 Praha 1</b></a></p>
-        <p><b>+420 234 811 111</b></p>
-        <p><b>Podatelna pro veřejnost:</b></p>
-        <ul>
-          <li>pondělí a středa - 7:30-17:00</li>
-          <li>úterý a čtvrtek - 7:30-15:30</li>
-          <li>pátek - 7:30-14:00</li>
-        </ul>
-      </div>
-
-      <div class="f_content3">
-        <h2>Úřední sdělení</h2>
-        <ul class="f_links"><b>
-          <li><a class="general_link" href="news.html">Aktuality</a></li>
-          <li><a class="general_link" href="contact.html">Kontakty</a></li>
-          <li><a class="general_link" href="employees.html">Seznam zaměstnanců</a></li>
-            <li><a class="general_link" href="documents.html">Dokumenty</a></li></b>
-        </ul>
-      </div>
-        <div class="f_content4">
-            <hr>
-            <p class="text_project"><b>©!!! 2022 – 2023  MŠMT Studentský projekt</b></p>
-            <ul class="social-icons">
-            <li><a href="https://www.facebook.com/msmtcr"><img src="img/facebook.png" alt="Facebook" width="30" height="30"></a></li>
-            <li><a href="https://twitter.com/msmtcr"><img src="img/twitter.png" alt="Twitter" width="30" height="30"></a></li>
-            </ul>
+      <div class="footer-container">
+        <div class="footer-content-1">
+          <h2>Kontakt pro veřejnost</h2>
+          <p>
+            <a class="general-link" href="https://www.google.com/maps/place/Karmelitská+529,+118+00+Malá+Strana/@50.0852566,14.4041732,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94e3028a6d63:0xc245e5c6bd645e50!8m2!3d50.0852566!4d14.4041732">
+              <b>Karmelitská 529/5 118 12 Praha 1</b>
+            </a>
+          </p>
+          <p>
+            <b>+420 234 811 111</b>
+          </p>
+          <p>
+            <b>Podatelna pro veřejnost:</b>
+          </p>
+          <ul>
+            <li>pondělí a středa - 7:30-17:00</li>
+            <li>úterý a čtvrtek - 7:30-15:30</li>
+            <li>pátek - 7:30-14:00</li>
+          </ul>
         </div>
-    </div>
-  </footer>
+
+        <div class="footer-content-2">
+          <h2>Úřední sdělení</h2>
+          <ul>
+            <b>
+            <li>
+              <a class="general-link" href="news.html">Aktuality</a>
+            </li>
+            <li>
+              <a class="general-link" href="contact.html">Kontakty</a>
+            </li>
+            <li>
+              <a class="general-link" href="employees.html">Seznam zaměstnanců</a>
+            </li>
+            <li>
+              <a class="general-link" href="documents.html">Dokumenty</a>
+            </li>
+            </b>
+          </ul>
+        </div>
+
+        <div class="footer-content-3">
+          <hr>
+          <p class="text_project">
+            <b>©!!! 2022 – 2023  MŠMT Studentský projekt</b>
+          </p>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/msmtcr">
+                <img src="img/facebook.png" alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/msmtcr">
+                <img src="img/twitter.png" alt="Twitter" >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
