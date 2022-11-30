@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="test.js"></script>
     <meta charset="UTF-8">
     <title>Ministerstvo školství, mládeže a tělovýchovy</title>
   </head>
@@ -39,17 +39,18 @@
   <main>
     <div class="design_1">
         <hr style="float: left">
-        <h1>Všechny kontakty</h1>
+        <h1>Ministerstvo</h1>
         <hr style="float:right;">
     </div>
 
 
   <section class="menu2">
-    <div class="topnav_general">
-      <a style="width:15%" class="active" ><b>Všechny kontakty</b></a>
-      <a href="m_contact.html"><b>Ministerstvo kontakty</b></a>
-      <a  href="#"><b>Vzdělávácí kontakty</b></a>
-      <a href="#"><b>Sportovní kontakty</b></a>
+    <div class="topnav">
+      <a href="index.html" style="width:15%"><b>Ministerstvo</b></a>
+      <a href="m_basic_info.html" style="width: 24%"><b>Základní informace</b></a>
+      <a href="m_news.html"><b>Aktuality</b></a>
+      <a href="m_action.html"><b>Akce</b></a>
+      <a class="active" href="#"><b>Kontakty</b></a>
       <div class="search-container">
             <form class="search-form">
               <input type="text" placeholder="Искать здесь...">
@@ -60,7 +61,7 @@
   </section>
 
     <article class="section_latest_news">
-       <div class="design_3">
+        <div class="design_3">
             <h2>KONTAKTY</h2><hr>
         </div>
         <div class="contact_div">
@@ -108,10 +109,13 @@
             <p>e-mail: ombudsman@msmt.cz</p>
           </div>
         </div>
-    </article>
+      <div class="button_vice">
+        <a href="m_employees.html" class="double-border-button">Všechny zaměstnanci</a>
+      </div>
 
+    </a>
 </main>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
@@ -130,6 +134,7 @@
           document.documentElement.scrollTop = 0;
       }
     </script>
+
 
     <footer>
     <div class="f_container">
