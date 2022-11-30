@@ -1,39 +1,35 @@
 /*general settings(body, header, nav, section, article, aside, footer)*/
 body{
   background-color: #e6f4f5;
-  font-family: "Gill Sans", lore;
+  font-family: "Gill Sans", sans-serif;
 }
 header, section, aside,
 article, footer {
-  background: #173f41;
-  color: #fff;
   display: block;
-  font-family: "Gill Sans", sans-serif;
   text-align: center;
+  background: #173f41; color: #fff;
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);
 }
 header{
-  margin: -0.5rem -0.5rem 2rem -0.5rem;
-  padding-top: 1.5rem;
-  box-shadow: 0 8px 3rem 0 rgba(0,0,0,0.2), 0 6px 3rem 0 rgba(0,0,0,0.19);
-  overflow: hidden;
-  background-color: #173f41;
-  z-index: 1000;
-  position: fixed;
-  top: 0;
   width: 100%;
   height: 7rem;
+  margin: -0.5rem -0.5rem 2rem -0.5rem;
+  padding-top: 1.5rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #173f41;
+  z-index: 1000;
 }
 .nav-main-news,
 .second-menu-bar,
-.last,
 .index-latest-news,
 .news,
 .index-latest-action{
   float: left;
   width:100%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border-radius: 0.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .article-documents{
   float: left;
@@ -41,22 +37,21 @@ header{
   margin-bottom: 2rem;
   margin-right: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 aside{
   float: right;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
   width: 23.3%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 footer {
-  color: #ececec;
-  background-color: #173f41;
-  clear: both;
   padding:2.5rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
+  margin: -0.7rem -0.6rem;
+  color: #ececec;
+  background-color: #173f41;
+  clear: both;
 }
 
 /*header info settings*/
@@ -106,8 +101,13 @@ footer {
   padding: 1rem 1rem 2rem 1rem;
   text-decoration: none;
 }
-.header-menu-items li a:hover:not(.active) {
-  background-color: #255e62;
+.header-menu-items li a:hover {
+  background-color: rgba(230, 244, 245, 0.17);
+  border-radius: 1rem 1rem 0 0;
+}
+.header-menu-items li a.active {
+  border: 0.1rem solid white;
+  background-color: rgba(230, 244, 245, 0.17);
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -142,6 +142,13 @@ main{
   bottom: -1%;
   filter: blur(0.3rem);
 }
+.nav-main-news-text {
+  position: absolute;
+  text-align: left;
+  bottom: 2.5rem;
+  left: 3rem;
+  font-size: 2rem;
+}
 .nav-main-news-text p {
   position: absolute;
   top: -7rem;
@@ -153,13 +160,7 @@ main{
   font-size: 1.5rem;
   border: 0.1rem solid rgba(124, 78, 15, 0.71);
 }
-.nav-main-news-text {
-    position: absolute;
-    text-align: left;
-    bottom: 2.5rem;
-    left: 3rem;
-    font-size: 2rem;
-}
+
 
 /* second menu settings*/
 .additional-menu-items,
@@ -167,8 +168,7 @@ main{
 .detailed-menu-items{
   overflow: hidden;
   background-color: #e6f4f5;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border: 0.1rem solid #173f41;
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);  border: 0.1rem solid #173f41;
   border-radius: 0.5rem;
 }
 .additional-menu-items a {
@@ -327,8 +327,7 @@ main{
   color: #7c4e0f;
   border-radius: 0.5rem;
   font-size: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 .main-news-text{
   padding: 2rem 10%;
   text-align: justify;
@@ -360,7 +359,7 @@ main{
 .information-block{
   float: left;
   margin-left: 2rem;
-
+  text-align: left;
 }
 .information-block h2{
   float: left;
@@ -369,13 +368,16 @@ main{
   text-align: left;
   float: left;
   padding: 1rem 1rem 0 3rem;
-  letter-spacing:0.125rem;
+  letter-spacing: 0.05rem;
   line-height: 2rem;
   font-size: 1vw;
 }
 .image-right{
   float: right;
   margin: 1rem 4rem 1rem 3rem;
+  width: 25rem;
+  height: auto;
+  border: 0.1rem solid white;
 }
 
 /* share block */
@@ -418,8 +420,8 @@ main{
 .gps_iframe{
   float: right;
   margin: 0 0 1rem 3rem;
-  width: 400px;
-  height: 300px;
+  width: 30rem;
+  height: 20rem;
 }
 
 /* horizontal small news */
@@ -432,8 +434,7 @@ main{
   border-radius: 2rem;
   margin-left: 2rem;
   margin-bottom: 1rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 .h-small-news-image{
   width: 15rem;
   height: 15rem;
@@ -454,16 +455,16 @@ main{
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
-.horizontal-small-news  p{
+.horizontal-small-news p{
   float: left;
   clear: right;
   margin-left: 3rem;
   padding: 0.3rem;
-  background-color: rgba(245, 245, 220, 0.78);
+  background-color: rgba(245, 245, 220, 0.55);
   color: #7c4e0f;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   font-size: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);
 }
 .horizontal-small-news h2{
   float: left;
@@ -471,7 +472,6 @@ main{
   margin-left: 3rem;
   width: 60%;
 }
-
 /* vertical small news*/
 .vertical-small-news{
   display: flex;
@@ -486,8 +486,7 @@ main{
   margin: 1rem 0.5rem;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 .v-news-items h2{
   font-style: italic;
   font-size: 1.5rem;
@@ -506,8 +505,7 @@ main{
   color: #7c4e0f;
   border-radius: 1rem;
   font-size: 1rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 
 /* grid components in the "action" */
 .grid-action-2{
@@ -553,8 +551,7 @@ main{
   border-radius: 1rem;
   padding-bottom: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.47);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 
 .grid-action-2 h2{
   padding: 1rem 1rem 0 1rem;
@@ -567,15 +564,14 @@ main{
 
 .grid-action-2 p,
 .grid-action-1 p{
-  background-color: rgba(245, 245, 220, 0.78);
+  background-color: rgba(245, 245, 220, 0.58);
   color: #7c4e0f;
   width: 50%;
   padding: 0.5rem;
   margin: 0 auto;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   font-size: 1vw;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 
 /* employee block */
 .employee-data{
@@ -593,8 +589,7 @@ main{
   text-align: center;
   margin: 1rem 0 1rem 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 .about-employee figure {
   padding: 0.5rem;
   margin: auto;
@@ -647,7 +642,7 @@ label {
 }
 input, textarea {
     background-color: rgba(255, 255, 255, 0.4);
-    border: 5px solid rgba(96, 134, 28, 0.15);
+    border: 0.2rem solid rgba(96, 134, 28, 0.15);
     padding: 1rem;
     color: #4b4b4b;
     font-size: 1.5rem;
@@ -670,8 +665,8 @@ input[type="submit"] {
     );
 }
 input[type="submit"]:hover {
-    color: #ff5400;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    color: #c74302;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.4);
     background: -webkit-gradient(
         linear,
         left bottom,
@@ -735,8 +730,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
   padding: 1rem 0;
   margin: 0 0 2.5rem 0;
   text-align: center;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);}
 .name-design-1 hr{
   margin-top: 3rem;
   width: 30%;
@@ -764,7 +758,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
   width: 90%;
   height: 250%;
   border-radius: 50%/50%;
-  border: 3px solid #e6f4f5;
+  border: 0.2rem solid #e6f4f5;
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -781,8 +775,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
   padding-bottom: 1rem;
   position: relative;
   float: left;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  color: #173f41;
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);  color: #173f41;
   z-index: 1;
 }
 .name-design-2 h2:before,
@@ -792,8 +785,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
   left: 10rem;
   margin-left: 1.5rem;
   bottom: 0.4rem;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width: 20rem;
+  box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);  width: 20rem;
   height: 3rem;
   transform: skew(-12deg) translateX(-50%);
   background: #e6f4f5;
@@ -820,7 +812,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
   border-radius: 1rem;
   color: #e6f4f5;
   float: left;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   font-size: 2rem;
   text-decoration: none;
   transition: background-color .3s;
@@ -839,8 +831,8 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
 }
 .double-border-button {
   text-decoration: none;
-  padding: 10px 40px;
-  border: 2px solid #e6f4f5;
+  padding: 0.7rem 3rem;
+  border: 0.1rem solid #e6f4f5;
   color: #e6f4f5;
   font-family: 'Montserrat', sans-serif;
 }
@@ -852,16 +844,16 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 1.2rem;
+  right: 2rem;
   z-index: 99;
-  font-size: 18px;
+  font-size: 1rem;
   border: none;
   outline: none;
   background-color: rgba(245, 245, 220, 0.78);
   color: #173f41;
   cursor: pointer;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 1rem;
 }
 #myBtn:hover {
