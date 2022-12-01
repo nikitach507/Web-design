@@ -56,10 +56,11 @@ footer {
 
 /*header info settings*/
 .header-info-table {
+  flex-wrap: wrap;
   width: 43.75rem;
   margin: -0.3rem auto;
 }
-.header-info-table td.header-icon{
+.header-icon{
   width: 5%;
 }
 .header-info-table img{
@@ -378,6 +379,20 @@ main{
   width: 25rem;
   height: auto;
   border: 0.1rem solid white;
+}
+/* documents block */
+.documents-block{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+.documents-block p{
+  clear: both;
+  float: left;
+  padding: 1rem 1rem 0 3rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+  font-size: 1.2vw;
 }
 
 /* share block */
@@ -782,7 +797,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
 .share h2:before{
   content: "";
   position: absolute;
-  left: 10rem;
+  left: 10.2rem;
   margin-left: 1.5rem;
   bottom: 0.4rem;
   box-shadow: 0 0.5rem 3rem 0 rgba(0,0,0,0.2), 0 0.5rem 3rem 0 rgba(0,0,0,0.19);  width: 20rem;
@@ -793,7 +808,7 @@ a.general-link:hover {color: rgba(239, 239, 199, 0.78); text-decoration: underli
 }
 .name-design-2 hr{
   float: left;
-  width: 60%;
+  width: 52vw;
   margin: 3rem 0;
   height: 0.3rem;
   border: none;
